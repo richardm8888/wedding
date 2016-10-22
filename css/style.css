@@ -1,0 +1,134 @@
+@font-face {
+    font-family: BlockGothic;
+    src: url('../fonts/BlockGothicRR-MediumExtraCond.otf');
+}
+
+@font-face {
+    font-family: Luna;
+    src: url('../fonts/Luna.ttf');
+}
+
+@font-face {
+	font-family: DKLemon;
+	src: url('../fonts/DK Lemon Yellow Sun.otf');
+}
+
+p.dklemon { font-family: DKLemon; font-size: 25px; }
+
+.normal-copy { text-align: left; }
+
+nav.navbar {
+	background-color: #86ec86;
+	color: white;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+
+
+.venue-section {
+
+}
+
+.intro-section h1 { font-family: "BlockGothic"; font-size: 120px; }
+.intro-section h2 { font-family: "Luna"; font-size: 60px; color: #86ec86; }
+.intro-section h4 { font-family: "Luna"; font-size: 45px; }
+
+.venue-section h1 { font-family: "BlockGothic"; font-size: 80px; color: #86ec86; }
+.venue-section h2 { font-family: "Luna"; font-size: 50px; margin-top: 0px; }
+.venue-section h3 { font-family: "DKLemon"; font-size: 40px; margin-top: 0px; }
+
+.accommodation-section h1 { font-family: "BlockGothic"; font-size: 80px; }
+.accommodation-section h4 { font-family: "Luna"; font-size: 30px; color: #86ec86; }
+.accommodation-section h5 { font-family: "DKLemon"; font-size: 20px; }
+.accommodation { margin: 10px 0px; }
+
+.rsvp-section h1 { font-family: "BlockGothic"; font-size: 80px; color: #86ec86; }
+.rsvp-section label { font-family: "DKLemon"; font-size: 20px; }
+.rsvp-section h4 { font-family: "Luna"; font-size: 30px; color: #86ec86; }
+
+
+.btn.rsvp { font-family: "Luna"; width: 100%; height: 70px; background-color: #86ec86; color: #ffffff; font-size: 50px; }
+.btn.rsvp-small { font-family: "Luna"; width: 100px; height: 50px; background-color: #86ec86; color: #ffffff; font-size: 30px; }
+
+#map { height: 500px; }
+
+
+
+
+.intro-section {
+    height: 70%;
+    padding-top: 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.bg-spacer {
+    height: 40%;
+}
+
+.venue-section {
+    height: 80%;
+    padding-top: 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.accommodation-section {
+    height: auto;
+    padding-top: 20px;
+    text-align: center;
+    background: #fff;
+}
+
+
+#bg-one {
+    background: url('../img/barn.jpg') no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bg-two {
+    background: url('../img/barn.jpg') no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bg-three {
+    background: url('../img/barn.jpg') no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* 992px */
+
+@media(max-width:768px ) {
+
+    .normal-copy { text-align: center; }
+
+    .intro-section { height: 75%; }
+    .bg-spacer { height: 25%; }
+    #bg-one { background: url('../img/barn.jpg') no-repeat center center fixed; }
+    .venue-section { height: 140%; }
+    .venue-section h1, .venue-section h2, .venue-section h3 { text-align: center; }
+
+    #map { width: 95%; height: 300px; clear: both; }
+}
+
+@media(min-width:769px) and (max-width: 1170px) {
+	.venue-section { height: 90%; }
+}
+
+.rsvp-section {
+    height: 80%;
+    padding-top: 20px;
+    text-align: center;
+    background: #fff;
+}
