@@ -49,40 +49,39 @@ nav.navbar {
 .rsvp-section h4 { font-family: "Luna"; font-size: 30px; color: #86ec86; }
 
 
-.btn.rsvp { font-family: "Luna"; width: 100%; height: 70px; background-color: #86ec86; color: #ffffff; font-size: 50px; }
+.btn.rsvp { font-family: "Luna"; width: 100%; height: 70px; background-color: #86ec86; color: #ffffff; font-size: 30px; }
 .btn.rsvp-small { font-family: "Luna"; width: 100px; height: 50px; background-color: #86ec86; color: #ffffff; font-size: 30px; }
 
-#map { height: 500px; }
+#map { height: 400px; margin-top: 30px; }
 
 
 
 
 .intro-section {
-    height: 70%;
+    height: 100%;
     padding-top: 20px;
     text-align: center;
     background: #fff;
 }
 
 .bg-spacer {
-    height: 40%;
+    height: 10%;
 }
 
 .venue-section {
-    height: 80%;
     padding-top: 20px;
     text-align: center;
     background: #fff;
 }
 
 .accommodation-section {
-    height: auto;
     padding-top: 20px;
     text-align: center;
     background: #fff;
 }
 
 
+/*
 #bg-one {
     background: url('../img/barn.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
@@ -106,6 +105,7 @@ nav.navbar {
     -o-background-size: cover;
     background-size: cover;
 }
+*/
 
 /* 992px */
 
@@ -113,10 +113,6 @@ nav.navbar {
 
     .normal-copy { text-align: center; }
 
-    .intro-section { height: 75%; }
-    .bg-spacer { height: 25%; }
-    #bg-one { background: url('../img/barn.jpg') no-repeat center center fixed; }
-    .venue-section { height: 140%; }
     .venue-section h1, .venue-section h2, .venue-section h3 { text-align: center; }
 
     #map { width: 95%; height: 300px; clear: both; }
@@ -124,6 +120,10 @@ nav.navbar {
 
 @media(min-width:769px) and (max-width: 1170px) {
 	.venue-section { height: 90%; }
+}
+
+@media (min-width: 480px) {
+    .btn.rsvp { font-size: 50px; }
 }
 
 .rsvp-section {

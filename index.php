@@ -54,7 +54,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>JO & RICH</h1>
+                    <h1>JO &amp; RICH</h1>
                     <h2>are getting married</h2>
                     <h4>31.08.2017</h4>
                     <a class="rsvp-small btn btn-default page-scroll" href="#rsvp">RSVP</a>
@@ -123,118 +123,155 @@
 
                 </div>
 
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Trundlers</h4>
-                    <h5><em>Charlton</em></h5>
-                </div>
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>Southside Studio</h4>
-                    <h5><em>Goodwood</em></h5>
+                    <h5><a target="_blank" href="http://sites.google.com/site/southsidestudiobb">sites.google.com/site/southsidestudiobb</a></h5>
+                    <h5><em>Goodwood, 2.6 miles</em></h5>
                 </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Rooks Hill</h4>
-                    <h5><em>Lavant</em></h5>
-                </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Bankywood</h4>
-                    <h5><em>Fittleworth</em></h5>
-                </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Castle Cottage</h4>
-                    <h5><em>Fittleworth</em></h5>
-                </div>
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>Home Farm House</h4>
-                    <h5><em>Eartham</em></h5>
+                    <h5><a target="_blank" href="http://www.bedandbreakfast-directory.co.uk/info.asp?id=107153">www.bedandbreakfast-directory.co.uk/info.asp?id=107153</a></h5>
+                    <h5><em>Eartham, 3 miles</em></h5>
                 </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Hookwood</h4>
-                    <h5><em>Fittleworth</em></h5>
-                </div>
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>Seabeach House</h4>
-                    <h5><em>Halnaker</em></h5>
+                    <h5><a target="_blank" href="http://www.sawdays.co.uk/britain/england/sussex/seabeach-house">www.sawdays.co.uk/britain/england/sussex/seabeach-house</a></h5>
+                    <h5><em>Halnaker, 3 miles</em></h5>
                 </div>
+
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>The Star &amp; Garter</h4>
+                    <h5><a target="_blank" href="http://www.thestarandgarter.co.uk">www.thestarandgarter.co.uk</a></h5>
+                    <h5><em>East Dean, 3 miles</em></h5>
+                </div>
+
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>Toad Hall</h4>
+                    <h5><a target="_blank" href="http://www.toadhallduncton.co.uk">www.toadhallduncton.co.uk</a></h5>
+                    <h5><em>Duncton, 3 miles</em></h5>
+                </div>
+
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>Trundlers</h4>
+                    <h5><a target="_blank" href="http://www.trundlersaccommodation.co.uk">www.trundlersaccommodation.co.uk</a></h5>
+                    <h5><em>Charlton, 3.8 miles</em></h5>
+                </div>
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>The Brufords</h4>
-                    <h5><em>Chichester</em></h5>
+                    <h5><a target="_blank" href="http://www.goodwoodbedandbreakfast.co.uk/the-house/4543523511">www.goodwoodbedandbreakfast.co.uk/the-house/4543523511</a></h5>
+                    <h5><em>Chichester, 4 miles</em></h5>
                 </div>
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>The Old Railway Station</h4>
-                    <h5><em>Petworth</em></h5>
-                </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Willow Barns</h4>
-                    <h5><em>Graffham</em></h5>
+                    <h5><a target="_blank" href="http://www.old-station.co.uk">www.old-station.co.uk</a></h5>
+                    <h5><em>Petworth, 5 miles</em></h5>
                 </div>
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>Arundel Fontwell Travelodge</h4>
-                    <h5><em>Arundel</em></h5>
+                    <h5><a target="_blank" href="http://www.travelodge.co.uk/hotels/14/arundel-fontwell-hotel">www.travelodge.co.uk/hotels/14/arundel-fontwell-hotel</a></h5>
+                    <h5><em>Arundel, 5 miles</em></h5>
                 </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Chichester Park Hotel</h4>
-                    <h5><em>Chichester</em></h5>
-                </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>The Goodwood Hotel</h4>
-                    <h5><em>Goodwood</em></h5>
-                </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Chichester Harbor Hotel</h4>
-                    <h5><em>Chichester</em></h5>
-                </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>The Spread Eagle Hotel</h4>
-                    <h5><em>Midhurst</em></h5>
-                </div>
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>The Fox Goes Free</h4>
-                    <h5><em>Charlton</em></h5>
+                    <h5><a target="_blank" href="http://www.thefoxgoesfree.com/accommodation">www.thefoxgoesfree.com/accommodation</a></h5>
+                    <h5><em>Charlton, 5 miles</em></h5>
                 </div>
+
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>The Star & Garter</h4>
-                    <h5><em>East Dean</em></h5>
+                    <h4>The White Horse Inn</h4>
+                    <h5><a target="_blank" href="http://www.whitehorse-sutton.co.uk/our-rooms">www.whitehorse-sutton.co.uk/our-rooms</a></h5>
+                    <h5><em>Sutton, 5 miles</em></h5>
                 </div>
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>The Stonemasons</h4>
-                    <h5><em>Petworth</em></h5>
+                    <h5><a target="_blank" href="http://www.thestonemasonsinn.co.uk">www.thestonemasonsinn.co.uk</a></h5>
+                    <h5><em>Petworth, 6 miles</em></h5>
                 </div>
+
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>The Angel Inn</h4>
+                    <h5><a target="_blank" href="http://www.angelinnpetworth.co.uk">www.angelinnpetworth.co.uk</a></h5>
+                    <h5><em>Petworth, 6 miles</em></h5>
+                </div>
+
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>Rose Cottage</h4>
+                    <h5><a target="_blank" href="http://www.rosecottage-singleton.co.uk">www.rosecottage-singleton.co.uk</a></h5>
+                    <h5><em>Singleton, 6 miles</em></h5>
+                </div>
+
+
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>The Royal Oak</h4>
-                    <h5><em>East Lavant</em></h5>
+                    <h5><a target="_blank" href="http://www.royaloakeastlavant.co.uk/stay">www.royaloakeastlavant.co.uk/stay</a></h5>
+                    <h5><em>East Lavant, 7 miles</em></h5>
                 </div>
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>Horseguards Inn</h4>
-                    <h5><em>Tillington</em></h5>
+                    <h5><a target="_blank" href="http://www.thehorseguardsinn.co.uk">www.thehorseguardsinn.co.uk</a></h5>
+                    <h5><em>Tillington, 7 miles</em></h5>
                 </div>
+
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>The Welldiggers Arms</h4>
-                    <h5><em>Petworth</em></h5>
+                    <h4>Castle Cottage</h4>
+                    <h5><a target="_blank" href="http://www.castlecottage.info">www.castlecottage.info</a></h5>
+                    <h5><em>Fittleworth, 7 miles</em></h5>
                 </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>The Angel Inn</h4>
-                    <h5><em>Petworth</em></h5>
-                </div>
+
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>The Swan Inn</h4>
-                    <h5><em>Fittleworth</em></h5>
-                </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>The White Horse Inn</h4>
-                    <h5><em>Sutton</em></h5>
-                </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Toad Hall</h4>
-                    <h5><em>Duncton</em></h5>
+                    <h5><a target="_blank" href="http://www.swaninnhotel.com">www.swaninnhotel.com</a></h5>
+                    <h5><em>Fittleworth, 8 miles</em></h5>
                 </div>
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>The White Swan</h4>
-                    <h5><em>Arundel</em></h5>
+                    <h5><a target="_blank" href="http://www.white-swan-arundel.co.uk">www.white-swan-arundel.co.uk</a></h5>
+                    <h5><em>Arundel, 8 miles</em></h5>
                 </div>
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>Rose Cottage</h4>
-                    <h5><em></em></h5>
+                    <h4>Bankywood</h4>
+                    <h5><a target="_blank" href="http://www.bankywood.co.uk">www.bankywood.co.uk</a></h5>
+                    <h5><em>Fittleworth, 8 miles</em></h5>
                 </div>
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>Hookwood</h4>
+                    <h5><a target="_blank" href="http://www.bedandbreakfast-pages.com/hotel.asp?id=15315">www.bedandbreakfast-pages.com/hotel.asp?id=15315</a></h5>
+                    <h5><em>Fittleworth, 8 miles</em></h5>
+                </div>
+
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>Chichester Harbor Hotel</h4>
+                    <h5><a target="_blank" href="http://www.chichester-harbour-hotel.co.uk">www.chichester-harbour-hotel.co.uk</a></h5>
+                    <h5><em>Chichester, 8 miles</em></h5>
+                </div>
+
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>Rooks Hill</h4>
+                    <h5><a target="_blank" href="http://www.rookshill.co.uk">www.rookshill.co.uk</a></h5>
+                    <h5><em>Lavant, 8.2 miles</em></h5>
+                </div>
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>The Welldiggers Arms</h4>
+                    <h5><a target="_blank" href="http://www.thewelldiggersarms.co.uk">www.thewelldiggersarms.co.uk</a></h5>
+                    <h5><em>Petworth, 9 miles</em></h5>
+                </div>
+
+                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
+                    <h4>The Spread Eagle Hotel</h4>
+                    <h5><a target="_blank" href="http://www.hshotels.co.uk/spread-eagle/rooms">www.hshotels.co.uk/spread-eagle/rooms</a></h5>
+                    <h5><em>Midhurst, 12 miles</em></h5>
+                </div>
+
+
 
             </div>
         </div>
