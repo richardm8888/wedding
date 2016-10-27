@@ -8,9 +8,30 @@
             $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
             $headers .= 'From: richy8888@hotmail.com' . "\r\n";
 
-            include('/includes/message_template.php');
+            //include('/includes/message_template.php');
+
+            $message = "
+            <html>
+                <head>
+                    <title>Wedding RSVP</title>
+                </head>
+                <body>
+                    <p>Somebody has RSVP'd!</p>
+                    <p><strong>Name(s)</strong>: " . $_POST['name'] . "</p>
+                    <p><strong>No. Guests</strong>: " . $_POST['num_guests'] . "</p>
+                    <p><strong>Coming</strong>: " . ( ($_POST['attending']) ? 'Yes' : 'No' ) . "</p>
+                    <p><strong>Dietary Requirements</strong>: " . ( ($_POST['dietary']) ? $_POST['dietary'] : 'N/A' ) . "</p>
+                    <p><strong>Message</strong>: " . ( ($_POST['message']) ? $_POST['message'] : 'N/A' ) . "</p>
+                </body>
+            </html>
+            ";
 
             mail('richy8888@hotmail.com,jo_the_mongoose@hotmail.com', 'Wedding RSVP', $message, $headers);
+
+            $success = "Thank you for your RSVP, we look forward to receiving it!";
+
+        } else {
+            $error = "You need to enter your name please";
         }
     }
 ?>
@@ -301,8 +322,25 @@
                 <div class="col-xs-12 col-md-8">
 
                     <h4>Website</h4>
-                    <form method="POST" class="form-horizontal">
-                        <div class="col-xs-12">
+
+
+                    <form action="#rsvp" method="POST" class="form-horizontal">
+
+                       <div class="col-xs-12">
+
+                        <?php
+                            if ( $error || $success ) {
+                        ?>
+                                <div class="form-group">
+                                    <label class="col-xs-4"></label>
+                                    <div class="col-xs-8 text-left" style="color: <?php echo ( ($error) ? 'red;' : 'green;' ); ?> font-weight: bold;">
+                                        <?php echo ( ($error) ? $error : $success ); ?>
+                                    </div>
+                                </div>
+                        <?php
+                            }
+                        ?>
+
                             <div class="form-group">
                                 <label for="name" class="col-xs-4">Name(s)</label>
                                 <div class="col-xs-8 text-left">
