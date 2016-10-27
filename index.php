@@ -6,6 +6,7 @@
 
             $headers  = 'MIME-Version: 1.0' . "\r\n";
             $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+            $headers .= 'From: richy8888@hotmail.com' . "\r\n";
 
             include('/includes/message_template.php');
 
@@ -25,7 +26,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jo & Rich Wedding - 31st August 2017</title>
+    <title>Jo &amp; Rich Wedding - 31st August 2017</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

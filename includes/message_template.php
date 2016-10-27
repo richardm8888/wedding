@@ -23,4 +23,6 @@ $message = "
 </html>
 ";
 
+return $message;
+
 ?>
