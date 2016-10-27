@@ -1,4 +1,6 @@
 <?php
+    $api_key = 'AIzaSyBVhWVaSn4kFfF5mspvCxIerodM-yqdPk8';
+
     if ( isset($_POST['rsvp']) ) {
         if ( $_POST['name'] && $_POST['num_guests'] ) {
 
@@ -96,7 +98,7 @@
                   }
                 </script>
                 <script async defer
-                    src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+                    src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=<?php echo $api_key; ?>">
                 </script>
             </div>
         </div>
