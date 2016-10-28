@@ -241,11 +241,6 @@
                 </div>
 
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
-                    <h4>The Brufords</h4>
-                    <h5><a target="_blank" href="http://www.goodwoodbedandbreakfast.co.uk/the-house/4543523511">www.goodwoodbedandbreakfast.co.uk/the-house/4543523511</a></h5>
-                    <h5><em>Chichester, 4 miles</em></h5>
-                </div>
-                <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>The Old Railway Station</h4>
                     <h5><a target="_blank" href="http://www.old-station.co.uk">www.old-station.co.uk</a></h5>
                     <h5><em>Petworth, 5 miles</em></h5>
@@ -258,7 +253,7 @@
 
                 <div class="accommodation col-xs-12 col-sm-6 col-md-4">
                     <h4>The Fox Goes Free</h4>
-                    <h5><a target="_blank" href="http://www.thefoxgoesfree.com/accommodation">www.thefoxgoesfree.com/accommodation</a></h5>
+                    <h5><a target="_blank" href="http://www.thefoxgoesfree.com/accomodation">www.thefoxgoesfree.com/accomodation</a></h5>
                     <h5><em>Charlton, 5 miles</em></h5>
                 </div>
 
