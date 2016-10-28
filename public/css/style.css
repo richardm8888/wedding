@@ -1,16 +1,28 @@
 @font-face {
-    font-family: BlockGothic;
-    src: url('../fonts/BlockGothicRR-MediumExtraCond.otf');
+  font-family: 'BlockGothic';
+  src: url('../fonts/BlockGothicRR-MediumExtraCond.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/BlockGothicRR-MediumExtraCond.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/BlockGothicRR-MediumExtraCond.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/BlockGothicRR-MediumExtraCond.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/BlockGothicRR-MediumExtraCond.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
-    font-family: Luna;
-    src: url('../fonts/Luna.ttf');
+  font-family: 'Luna';
+  src: url('../fonts/Luna.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Luna.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Luna.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Luna.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Luna.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
-	font-family: DKLemon;
-	src: url('../fonts/DK Lemon Yellow Sun.otf');
+  font-family: 'DKLemon';
+  src: url('../fonts/DK Lemon Yellow Sun.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/DK Lemon Yellow Sun.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/DK Lemon Yellow Sun.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/DK Lemon Yellow Sun.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/DK Lemon Yellow Sun.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 p.dklemon { font-family: DKLemon; font-size: 25px; }
