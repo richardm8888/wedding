@@ -1,34 +1,90 @@
 <?php
+    require_once('../db.php');
+
+    mysql_connect('localhost', $db_user, $db_pass);
+
+    //Select Database
+    mysql_select_db('wedding') or die(mysql_error());
+
+
     $api_key = 'AIzaSyBVhWVaSn4kFfF5mspvCxIerodM-yqdPk8';
 
     if ( isset($_POST['rsvp']) ) {
         if ( $_POST['name'] && $_POST['num_guests'] ) {
 
-            $headers  = 'MIME-Version: 1.0' . "\r\n";
-            $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-            $headers .= 'From: richy8888@hotmail.com' . "\r\n";
+            $insert_name = mysql_real_escape_string($_POST['name']);
+            $insert_guests = mysql_real_escape_string($_POST['num_guests']);
+            $insert_dietary = mysql_real_escape_string($_POST['dietary']);
+            $insert_attending = mysql_real_escape_string($_POST['attending']);
+            $insert_msg = mysql_real_escape_string($_POST['message']);
 
-            //include('/includes/message_template.php');
+            $check_query = "SELECT rsvp_id FROM rsvp WHERE guest_names = '" . $insert_name . "';";
+            $check_result = mysql_query($check_query);
+            $row = mysql_fetch_assoc($check_result);
+            if ( !$row['rsvp_id'] ) {
 
-            $message = "
-            <html>
-                <head>
-                    <title>Wedding RSVP</title>
-                </head>
-                <body>
-                    <p>Somebody has RSVP'd!</p>
-                    <p><strong>Name(s)</strong>: " . $_POST['name'] . "</p>
-                    <p><strong>No. Guests</strong>: " . $_POST['num_guests'] . "</p>
-                    <p><strong>Coming</strong>: " . ( ($_POST['attending']) ? 'Yes' : 'No' ) . "</p>
-                    <p><strong>Dietary Requirements</strong>: " . ( ($_POST['dietary']) ? $_POST['dietary'] : 'N/A' ) . "</p>
-                    <p><strong>Message</strong>: " . ( ($_POST['message']) ? $_POST['message'] : 'N/A' ) . "</p>
-                </body>
-            </html>
-            ";
+                //build query
+                $query = "
+                    INSERT INTO
+                        rsvp
+                    (
+                        guest_names,
+                        dietary,
+                        message,
+                        num_guests,
+                        attending
+                    )
+                    VALUES
+                    (
+                        '" . $insert_name . "',
+                        '" . $insert_dietary . "',
+                        '" . $insert_message . "',
+                        " . (int)$insert_guests . ",
+                        " . ( ($insert_attending) ? 1 : 0 ) . "
+                    );
+                ";
 
-            mail('richy8888@hotmail.com,jo_the_mongoose@hotmail.com', 'Wedding RSVP', $message, $headers);
+                //Execute query
+                $qry_result = mysql_query($query) or $error = "Oops, something went wrong. Please try again.";
 
-            $success = "Thank you for your RSVP, we look forward to receiving it!";
+            } else {
+                $error = "We already have an RSVP for this name / guest!";
+            }
+
+            if ( !$error ) {
+
+                $headers  = 'MIME-Version: 1.0' . "\r\n";
+                $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+                $headers .= 'From: richy8888@hotmail.com' . "\r\n";
+
+                //include('/includes/message_template.php');
+
+                $message = "
+                <html>
+                    <head>
+                        <title>Wedding RSVP</title>
+                    </head>
+                    <body>
+                        <p>Somebody has RSVP'd!</p>
+                        <p><strong>Name(s)</strong>: " . $_POST['name'] . "</p>
+                        <p><strong>No. Guests</strong>: " . $_POST['num_guests'] . "</p>
+                        <p><strong>Coming</strong>: " . ( ($_POST['attending']) ? 'Yes' : 'No' ) . "</p>
+                        <p><strong>Dietary Requirements</strong>: " . ( ($_POST['dietary']) ? $_POST['dietary'] : 'N/A' ) . "</p>
+                        <p><strong>Message</strong>: " . ( ($_POST['message']) ? $_POST['message'] : 'N/A' ) . "</p>
+                    </body>
+                </html>
+                ";
+
+                mail('richy8888@hotmail.com,jo_the_mongoose@hotmail.com', 'Wedding RSVP', $message, $headers);
+
+                $success = "Thank you for your RSVP, we look forward to receiving it!";
+
+                unset($_POST['name']);
+                unset($_POST['num_guests']);
+                unset($_POST['dietary']);
+                unset($_POST['attending']);
+                unset($_POST['message']);
+            }
 
         } else {
             $error = "You need to enter your name please";
@@ -344,21 +400,21 @@
                             <div class="form-group">
                                 <label for="name" class="col-xs-4">Name(s)</label>
                                 <div class="col-xs-8 text-left">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Name(s)">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Name(s)" value="<?php echo $_POST['name']; ?>">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="dietary" class="col-xs-4">Dietary Requirements</label>
                                 <div class="col-xs-8 text-left">
-                                    <input type="text" name="dietary" class="form-control" id="name" placeholder="Allergies, vegetarian, gluten-free, etc.">
+                                    <input type="text" name="dietary" class="form-control" id="dietary" placeholder="Allergies, vegetarian, gluten-free, etc." value="<?php echo $_POST['dietary']; ?>">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="message" class="col-xs-4">Message</label>
                                 <div class="col-xs-8 text-left">
-                                    <textarea name="message" class="form-control" id="name" placeholder="Please leave us a message"></textarea>
+                                    <textarea name="message" class="form-control" id="message" placeholder="Please leave us a message"><?php echo $_POST['message']; ?></textarea>
                                 </div>
                             </div>
                         </div>
@@ -368,11 +424,11 @@
                                 <label for="num_guests"  class="col-xs-8">Number of guests</label>
                                 <div class="col-xs-4 text-left">
                                     <select id="num_guests" name="num_guests">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
+                                        <option <?php echo ( ($_POST['num_guests']==1) ? 'selected' : '' ); ?> value="1">1</option>
+                                        <option <?php echo ( ($_POST['num_guests']==1) ? 'selected' : '' ); ?> value="2">2</option>
+                                        <option <?php echo ( ($_POST['num_guests']==1) ? 'selected' : '' ); ?> value="3">3</option>
+                                        <option <?php echo ( ($_POST['num_guests']==1) ? 'selected' : '' ); ?> value="4">4</option>
+                                        <option <?php echo ( ($_POST['num_guests']==1) ? 'selected' : '' ); ?> value="5">5</option>
                                     </select>
                                 </div>
                             </div>
