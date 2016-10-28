@@ -79,6 +79,7 @@ nav.navbar {
 
 .bg-spacer {
     height: 10%;
+    background: url('../img/bunting.jpg') repeat-x center center;
 }
 
 .venue-section {
