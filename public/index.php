@@ -75,7 +75,7 @@
                 </html>
                 ";
 
-                mail('richy8888@hotmail.com,jo_the_mongoose@hotmail.com', 'Wedding RSVP', $message, $headers);
+                mail('richy8888@me.com,jo_the_mongoose@hotmail.com', 'Wedding RSVP', $message, $headers);
 
                 $success = "Thank you for your RSVP, we look forward to receiving it!";
 
