@@ -195,6 +195,7 @@
                         We do not expect any wedding gifts or presents and as such do not have a list,<br />
                         your presence on our wedding day is more than enough.
                     </p>
+                    <br /><br />
                     <p class="dklemon">
                         If you however would like to get us a little something, a small contribution towards<br />
                         one of the following would be greatly appreciated:
