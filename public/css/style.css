@@ -25,7 +25,8 @@
        url('../fonts/DK Lemon Yellow Sun.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-p.dklemon { font-family: DKLemon; font-size: 25px; }
+p.dklemon, ul.dklemon li { font-family: DKLemon; font-size: 25px; }
+ul.dklemon li { list-style: none; margin: 10px 0; }
 
 .normal-copy { text-align: left; }
 
