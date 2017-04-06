@@ -139,7 +139,7 @@
                     <h4>31.08.2017</h4>
                     <a class="rsvp-small btn btn-default page-scroll" href="#rsvp">RSVP</a>
                     &nbsp;
-                    <a class="rsvp-small btn btn-default page-scroll" href="#gifts">Gift List</a>
+                    <a class="rsvp-small btn btn-default page-scroll" href="#gifts">GIFTS</a>
                 </div>
             </div>
         </div>
