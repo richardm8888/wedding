@@ -190,7 +190,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 class="text-left">WEDDING GIFTS / PRESENTS</h1>
+                    <h1>WEDDING GIFTS / PRESENTS</h1>
                     <p class="dklemon">
                         We do not expect any wedding gifts or presents and as such do not have a list, your presence on our wedding day is more than enough.
                     </p>

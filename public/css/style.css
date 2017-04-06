@@ -52,6 +52,9 @@ nav.navbar {
 .accommodation { margin: 10px 0px; height: 165px; }
 .accommodation a { color: #f2a0b5; }
 
+.gift-section h1 { font-family: "BlockGothic"; font-size: 80px; }
+
+
 .rsvp-section h1 { font-family: "BlockGothic"; font-size: 80px; color: #6ce074; }
 .rsvp-section label { font-family: "DKLemon"; font-size: 20px; }
 .rsvp-section h4 { font-family: "Luna"; font-size: 30px; color: #6ce074; }
