@@ -138,6 +138,8 @@
                     <h2>are getting married</h2>
                     <h4>31.08.2017</h4>
                     <a class="rsvp-small btn btn-default page-scroll" href="#rsvp">RSVP</a>
+                    &nbsp;
+                    <a class="rsvp-small btn btn-default page-scroll" href="#gifts">Gift List</a>
                 </div>
             </div>
         </div>
@@ -183,6 +185,32 @@
     </section>
 
     <section class="bg-spacer" id="bg-two"></section>
+
+    <section id="gifts" class="gift-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-left">WEDDING GIFTS / PRESENTS</h1>
+                    <p class="dklemon normal-copy">
+                        We do not expect any wedding gifts or presents and as such do not have a list, your presence on our wedding day is more than enough.
+                    </p>
+                    <p class="dklemon normal-copy">
+                        If you however would like to get us a little something, a small contribution towards one of the following would be greatly appreciated:
+                    </p>
+                    <ul>
+                      <li>A new dining room table and chairs</li>
+                      <li>Our honeymoon</li>
+                      <li>Renovating our garden</li>
+                    </ul>
+                    <p class="dklemon normal-copy">
+                      We cannot wait to share our special day with all our family and friends.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-spacer" id="bg-three"></section>
 
     <!-- Services Section -->
     <section id="accommodation" class="accommodation-section">
@@ -352,7 +380,7 @@
         </div>
     </section>
 
-    <section class="bg-spacer" id="bg-three"></section>
+    <section class="bg-spacer" id="bg-four"></section>
 
     <!-- Contact Section -->
     <section id="rsvp" class="rsvp-section">
